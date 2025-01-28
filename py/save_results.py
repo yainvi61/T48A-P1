@@ -4,7 +4,7 @@ branch_name = os.getenv('BRANCH_NAME')
 
 # Supongamos que tienes los resultados de las pruebas en una lista de diccionarios
 test_results = [
-    {'rama': 'branch_name}
+    {'rama': branch_name}
 ]
 
 # Convierte la lista de diccionarios en un DataFrame de pandas
